@@ -4,7 +4,7 @@ Prosjektet handler om å utvikle programmer som kan gjøre beregninger og visual
 
 Dere vil få utlevert start-kode i form av et Eclipse-prosjekt som skal danne utgangspunkt for ulike Java programmer. I prosjektet skal dere jobbe i grupper med opptil 3 personer med å implementere de delene som mangler for at programmene blir komplett.
 
-Videre vil dere få utlevert et Eclipse-prosjekt med en del enhetstester (unit-tests) som skal brukes til automatisk å teste koden som dere implementerer. Enhetstestene er ikke komplette tester, men tester at de meste grunnleggende ting fungerer. Det er **viktig** å bruke disse testene underveis.
+Dere vil også få utlevert et Eclipse-prosjekt med en del enhetstester (unit-tests) som skal brukes til automatisk å teste koden som dere implementerer. Enhetstestene er ikke komplette tester, men tester at de meste grunnleggende ting fungerer. Det er **viktig** å bruke disse testene underveis.
 
 ## Senk skuldrene
 
@@ -12,15 +12,17 @@ Java-programmeringen i prosjektet vil basere seg på det som er gjennomgått i f
 
 Deler av prosjektet vil sannsynligvis oppleves som krevende for en del. Det gjelder i hovedsak om å jobbe seriøst med programmeringsoppgavene og få så mye til som dere klarer.
 
-Det er **IKKE** lov å legge ferdige løsninger på Discord. 
+Det er **IKKE** lov å legge ferdige løsninger ut på Discord. 
 
 ## Uke 41 og uke 42 - Jobbe med programmeringsoppgaver
 
-På programmerings-lab skal dere jobbe med prosjektet. Her vil lab-assistenter være til stede for å hjelpe og svare på spørsmål relatert til programmeringsprosjektet. I uke 41 er der **ikke** forelesning på torsdagen og i uke 42 er der ikke forelesnings på onsdagen. Dette for å gi mer tid til å jobbe med projektet.
+På programmerings-lab i uke 41 opg 42 skal dere jobbe med prosjektet. Her vil lab-assistenter være til stede for å hjelpe og svare på spørsmål relatert til programmeringsprosjektet. I uke 41 er der **ikke** forelesning på torsdagen og i uke 42 er der ikke forelesnings på onsdagen. Dette for å gi mer tid til å jobbe med projektet.
 
 ## Uke 42 og uke 43 - Gruppemøter
 
-I uke 42 og uke 43 skal hver gruppe møtes med en annen gruppe for å diskutere og sammenligne løsningene som dere er kommet frem til. Dere kan gå frem oppgave for oppgave. Om der er ting som gruppene ikke fikk til å fungere, kan dette også diskuteres som en del av presentasjonen. Informasjon om hvordan gruppemøtene organiseres vil bli git på Canvas.
+I uke 42 eller uke 43 (avhengig av hvor rask gruppen kommer i mål med oppgavene) skal hver gruppe møtes med en annen gruppe for å diskutere og sammenligne løsningene som dere er kommet frem til. Dere kan gå frem oppgave for oppgave. Om der er ting som gruppene ikke fikk til å fungere, kan dette også diskuteres som en del av presentasjonen. 
+
+Informasjon om hvordan gruppemøtene organiseres kommer på Canvas.
 
 ## GPS data og mål med prosjektet
 
@@ -32,7 +34,7 @@ Formålet med prosjektet er å implementere Java-programmer som har tilsvarende 
 
 Det ultimative målet med prosjektet er en Java-applikasjon som bruker EasyGraphics biblioteket til løpende (live) å gi syklisten (brukeren) informasjon svarende til det som skissert på bildet nedenfor. Her er tid og aktuell hastighet vist i øverste venstre hjørne og høydeprofilen er i midten. Videre er ruten tegnet på et kart nederst der rød angir at sykkelruten går oppover, grønn at det går nedover og blå at det er flat.
 
-![](assets/markdown-img-paste-20180909131911330.png)
+![](docs/assets/markdown-img-paste-20180909131911330.png)
 
 ### GPS data format
 
@@ -56,11 +58,11 @@ Datafilen forteller altså hvilke punkter vi har flyttet oss igjennom og til hvi
 
 I oppgaven skal dere bruke større GPS datafiler bla. en datafil hvor en DAT100 underviser har vært ute og sykle på ulike deler av løypene fra VM i Bergen, 2017. 
 
-**FIXME**: Ruten er vist her: http://doarama.com/view/1604599 der GPS datafilen er visualisert basert på en web-basert applikasjon. https://gpx.pelmers.com/
+Der finnes også ulike appplikasjoner eks. på web filer med GPS data kan visualieres. Eksempelvis: https://gpx.pelmers.com/
 
 ## Oppgaver
 
-- [**Oppgave 0:** Startkode og registerer grupper](https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/oppgave0.md)
+- [**Oppgave 0:** Hente startkoden og registrere gruppe oppbevaringsplass på GitHub](https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/oppgave0.md)
 - [**Oppgave 1:** GPS punkter og klasser](https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/oppgave1.md)
 - [**Oppgave 2:** Datakonvertering og referansetabeller](https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/oppgave2.md)
 - [**Oppgave 3:** Hjelpemetoder for tabeller og beregninger](https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/oppgave3.md)
