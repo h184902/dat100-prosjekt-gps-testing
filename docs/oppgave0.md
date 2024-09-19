@@ -1,6 +1,13 @@
-# Eclipse-prosjekt med startkode og enhetstester
+# Oppgave 0: Eclipse-prosjekt med startkode og enhetstester
 
+**FIXME** synkroniser med vri8 beskrivelse som er mer oppdatert. 
 Dere skal ta utgangpunkt i to Eclipse-prosjekt.
+
+## Startkode og enhetstester
+
+Første steg for å komme igang med programmeringen er å laste ned et Eclipse-prosjekt med startkode og et Eclipse-prosjekt med enhetstester importere disse.
+
+Dette kan gjøres som beskrevet her: https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/startkode.md
 
 Det ene Eclipse-prosjekt inneholder en rekke Java-klasser som utgjør rammen rundt en sykkelcomputer-applikasjonen. Dere trenger ikke å legge til nye klasser, men dere skal implementere ulike metoder i klassene som er gitt.
 

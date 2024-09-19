@@ -30,4 +30,6 @@ Som eksempel har vi for det første GPS datapunkt (i linje 3 i filen) informasjo
 
 Datafilen forteller altså hvilke punkter vi har flyttet oss igjennom og til hvilket tidspunkt. Vi startet i punktet svarende til linje 3, så flyttet vi oss til punktet i linje 4 osv. Totalt sett har vi beveget oss gjennom fem punkter som da definerer den ruten vi har syklet.
 
-I oppgaven skal dere bruke større GPS datafiler bla. en datafil hvor en DAT100 underviser har vært ute og syklet på ulike deler av løypene fra VM i Bergen, 2017. Ruten er vist her: http://doarama.com/view/1604599 der GPS datafilen er visualisert basert på en web-basert applikasjon.
+I oppgaven skal dere bruke større GPS datafiler bla. en datafil hvor en DAT100 underviser har vært ute og sykle på ulike deler av løypene fra VM i Bergen, 2017. 
+
+**FIXME**: Ruten er vist her: http://doarama.com/view/1604599 der GPS datafilen er visualisert basert på en web-basert applikasjon.
