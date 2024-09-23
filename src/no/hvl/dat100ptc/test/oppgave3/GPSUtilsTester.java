@@ -1,4 +1,4 @@
-package no.hvl.dat100ptc.test;
+package no.hvl.dat100ptc.test.oppgave3;
 
 import static org.junit.jupiter.api.Assertions.*;
 

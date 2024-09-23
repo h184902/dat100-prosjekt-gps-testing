@@ -4,7 +4,7 @@ I denne oppgaven skal det implementeres noen hjelpe-metoder i klassen `GPSUtils.
 
 Denne oppgaven består i å gjøre ferdig implementasjonen av metodene nedenfor i klassen `GPSUtils.java` og bruke enhetstestene i klassen `GPSUtilsTester.java` til løpende å teste koden.
 
-*For denne oppgaven er spesielt Kap 5.1-5.3, 5.5-5.6 i Java-boken samt Undervisning 8 og 9 relevante*
+*For denne oppgaven er spesielt Kap 5.1-5.3, 5.5-5.6 i Java-boken samt Undervisning 8 relevant*
 
 #### a)
 
@@ -43,17 +43,16 @@ som er tilsvarende `getLatitudes`-metoden ovenfor, men for lengdegrader.
 Implementer metoden
 
 ```java
-public static double distance(GPSPoint gpspoint1, GPSPoint gpspoint2) {
-
+public static double distance(GPSPoint gpspoint1, GPSPoint gpspoint2)
 ```
 
-som beregner avstanden *d* i meter mellom to GPS punkter på jordkloden ved bruk av Haversine-formlen
+som beregner og returnerer avstanden *d* i meter mellom to GPS punkt på jord-kloden ved bruk av Haversine-formlen
 
 ![](assets/markdown-img-paste-20180909113408842.png)
 
-der *R = 6371000* meter er jordens gjennomsnittsradius.
+der *R = 6 371 000* m er jordens gjennomsnittsradius.
 
-**Hint:** Math-klassen: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html inneholder de metoder som trengs inkl. `atan2` og `toRadians` metoder.
+**Hint:** Math-klassen: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html inneholder de metoder som trengs inkl. `atan2`. Metoden `toRadians` i Math-klassen kan brukes til å omregne lengde/bredde grader til radianer.
 
 #### e)
 
@@ -75,7 +74,15 @@ Implementer metoden
 public static String formatTime(int secs)
 ```
 
-som returnerer en streng på formatet `hh:mm:ss` der tiden i sekunder fra midnatt er gitt av parameteren `secs`. I strengen på formatet `hh:mm:ss`  er `hh` er antall timer, `mm` er antall minutter og `ss` er antall sekunder. Videre skal metoden legge inn mellomrom foran tiden slik den total lengden på strengen blir 10. **Hint:** se på `format`-metoden i `String`-klassen.`
+som returnerer en streng på formatet `hh:mm:ss` der tiden i sekunder fra midnatt er gitt av parameteren `secs`. I strengen på formatet `hh:mm:ss`  er `hh` antall timer, `mm` er antall minutter og `ss` er antall sekunder. Videre skal metoden legge inn mellomrom foran tiden slik den total lengden på strengen blir 10. 
+
+Hvis eksempelvis `secs` er `10921` da skal metoden returnere strengen:
+
+```
+"  03:02:01"
+```
+
+**Hint:** Bruk nettressurser for å finne informasjon om `format`-metoden i `String`-klassen og modulo operatoren `%` kan brukes til å få rest ved divisjon i Java.
 
 #### g)
 
@@ -85,4 +92,10 @@ Implementer metoden
 public static String formatDouble(double d)
 ```
 
-som runder av et flyttall til to desimaler, setter resultat inn i en streng og fyller på med mellomrom foran i strengen slik at lengden på strengen blir 10.
+som runder av et flyttall til to desimaler, setter resultat inn i en streng og fyller på med mellomrom foran i strengen slik at totallengden på strengen blir 10. Det kan antas at tallet maksimalt trenger 10 karakterer.
+
+Hvis eksempelvis `d` er `1.346` da skal metoden returnere strengen:
+
+```
+"      1.35"
+```
