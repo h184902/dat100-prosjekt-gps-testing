@@ -52,7 +52,17 @@ som beregner og returnerer avstanden *d* i meter mellom to GPS punkt på jord-kl
 
 der *R = 6 371 000* m er jordens gjennomsnittsradius.
 
-**Hint:** Math-klassen: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html inneholder de metoder som trengs inkl. `atan2`. Metoden `toRadians` i Math-klassen kan brukes til å omregne lengde/bredde grader til radianer.
+De to GPS punktene i formelen ovenfor er (latitude<sub>1</sub>, longtitude<sub>1</sub>) og (latitude<sub>2</sub>, longtitude<sub>2</sub>). Teksten *omregnet til radianer* i figuren betyr at etter å ha utregnet verdien av uttryjjet til høyre for `=`-tegnet (eks. *longitude<sub>2</sub> - longitude<sub>2</sub>*) skal resultatet omregnes til radianer.
+
+Start-koden for klassen inneholder to lokale hjelpemetoder:
+
+```java
+private static double compute_a(double phi1, double phi2, double deltaphi, double deltadelta)
+private static double compute_c(double a)
+```
+der det er tenkt å gjøre beregningen av henholdsvis *a* og *c* i formlen.
+
+**Hint:** Math-klassen: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html inneholder de metoder som trengs inkl. `atan2`. Metoden `toRadians` i Math-klassen kan brukes til å omregne (lengde/bredde) grader til radianer.
 
 #### e)
 
@@ -64,7 +74,7 @@ public static double speed(GPSPoint gpspoint1, GPSPoint gpspoint2) {
 
 som beregninger gjennomsnittshastighet i **km/t** om man beveger seg fra punktet gitt ved `gpspoint1` til punktet `gpspoint2`.
 
-**Hint:** Bruk metoden `distance` fra d) samt get-metode(r) på `GPSPoint`-objekt.
+**Hint:** Bruk metoden `distance` fra d) samt get-metode(r) på `GPSPoint`-objekt. Husk at resultat skal være i **km/t**.
 
 #### f)
 
