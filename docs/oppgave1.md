@@ -4,7 +4,7 @@ I denne oppgaven skal der implementeres en klasse `GPSPoint.java` for å kunne r
 
 Ideen er at et GPS punkt skal representeres som et objekt av `GPSPoint`-klassen og programmet skal ha et slikt objekt for hvert GPS punkt. For hvert GPS punkt får vi behov for å lagre tidspunkt, breddegrad, lengdegrad og høyde.
 
-*For denne oppgaven er spesielt Kap. 6.1 - 6.3 i Java-boken samt Undervisning 13 relevant.*
+*For denne oppgaven er spesielt Kap. 6.1 - 6.3 i Java-boken samt Undervisning 11 og Undervisning 12 relevant.*
 
 ### a) Objektvariable og konstruktør
 
@@ -12,12 +12,12 @@ Se på start-koden for klassen `GPSPoint.java` i pakken `no.hvl.dat100ptc.oppgav
 
 Utvid startkoden for klassen slik klassen får følgende objektvariable:
 
--	`time` (heltall) som angir tiden i sekunder
--	`latitude` (desimaltall) som angir breddegrad
--	`longitude` (desimaltall) som angir lengdegrad
+- `time` (heltall) som angir tiden i sekunder
+- `latitude` (desimaltall) som angir breddegrad
+- `longitude` (desimaltall) som angir lengdegrad
 - `elevation` (desimaltall) som angir høyde i meter
 
-som alle skal være `private` dvs. kun synlige innenfor klassen.
+Alle objektvariable skal være `private` dvs. kun synlige innenfor klassen.
 
 Videre skal klassen ha en *konstruktør*
 
@@ -37,7 +37,7 @@ Gjør ferdig implementasjonen av hent/sett (get/set)-metoder og test de med enhe
 
 Gjør ferdig implementasjonen av `toString()`-metoden som returnerer en strengrepresentasjon av et `GPSPoint`-objekt på formen:
 
-`1 (2.0,3.0) 5.0\n`
+`"1 (2.0,3.0) 5.0\n"`
 
 der `1` er tiden, `(2.0,3.0)` er (breddegrad,lengdegrad) og `5.0` er høyden.
 

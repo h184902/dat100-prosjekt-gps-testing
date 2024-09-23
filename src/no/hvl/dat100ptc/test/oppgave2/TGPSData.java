@@ -1,4 +1,4 @@
-package no.hvl.dat100ptc.test;
+package no.hvl.dat100ptc.test.oppgave2;
 
 import no.hvl.dat100ptc.oppgave1.GPSPoint;
 import no.hvl.dat100ptc.oppgave2.GPSData;
