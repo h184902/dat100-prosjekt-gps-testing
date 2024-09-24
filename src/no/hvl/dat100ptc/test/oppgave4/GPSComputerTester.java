@@ -1,4 +1,4 @@
-package no.hvl.dat100ptc.test;
+package no.hvl.dat100ptc.test.oppgave4;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
@@ -13,10 +13,9 @@ public class GPSComputerTester {
 	private int EXP_TOTALTIME = 1 * 60 + 20;
 	private double EXP_TOTALDISTANCE = 1080 + 5835 + 5835 + 1080;
 	private double EXP_TOTALELEVATION = 10 + 30 + 10;
-	private double[] EXP_SPEEDS = 
-		{(108.0 * 60 * 60) / 1000, (194.5 * 60 * 60) / 1000, (194.5 * 60 * 60) / 1000, (108.0 * 60 * 60) / 1000 };
-	private double EXP_MAXSPEED = (194.5 * 60 * 60 / 1000) ;
-	private double EXP_AVERAGESPEED = ((EXP_TOTALDISTANCE / EXP_TOTALTIME) * 60 * 60) / 1000;
+	private double[] EXP_SPEEDS =  {108.0, 194.5, 194.5, 108.0 };
+	private double EXP_MAXSPEED = 194.5 ;
+	private double EXP_AVERAGESPEED = (EXP_TOTALDISTANCE / EXP_TOTALTIME);
 			
 	private GPSComputer gpscomp;
 	
@@ -82,10 +81,6 @@ public class GPSComputerTester {
 		
 	}
 	
-	@Test
-	public void test_display() {
-		gpscomp.displayStatistics();
-	}
 	public void test_displayStatictics(String filename) {
 		
 		GPSComputer gpscomp = new GPSComputer(filename);
@@ -113,11 +108,8 @@ public class GPSComputerTester {
 	}
 	
 	@Test
-	public void test_Printvm() {
+	public void test_displayvm() {
 		
 		test_displayStatictics("vm");
 	}
-	
-	
-	
 }

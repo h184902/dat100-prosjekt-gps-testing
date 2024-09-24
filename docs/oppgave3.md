@@ -72,9 +72,9 @@ Implementer metoden
 public static double speed(GPSPoint gpspoint1, GPSPoint gpspoint2) {
 ```
 
-som beregninger gjennomsnittshastighet i **km/t** om man beveger seg fra punktet gitt ved `gpspoint1` til punktet `gpspoint2`.
+som beregninger gjennomsnittshastighet i *m/s* om man beveger seg fra punktet gitt ved `gpspoint1` til punktet `gpspoint2`.
 
-**Hint:** Bruk metoden `distance` fra d) samt get-metode(r) på `GPSPoint`-objekt. Husk at resultat skal være i **km/t**.
+**Hint:** Bruk metoden `distance` fra d) samt get-metode(r) på `GPSPoint`-objekt.
 
 #### f)
 
@@ -92,7 +92,7 @@ Hvis eksempelvis `secs` er `10921` da skal metoden returnere strengen:
 "  03:02:01"
 ```
 
-**Hint:** Bruk nettressurser for å finne informasjon om `format`-metoden i `String`-klassen og modulo operatoren `%` kan brukes til å få rest ved divisjon i Java.
+**Hint:** Bruk nettressurser for å finne informasjon om `format`-metoden i `String`-klassen. Modulo operatoren `%` kan brukes til å få rest ved divisjon i Java.
 
 #### g)
 

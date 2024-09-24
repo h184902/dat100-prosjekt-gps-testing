@@ -44,6 +44,6 @@ Denne oppgaven er vanskelig :-)
 
 Last ned en GPS Logger app’en på mobilen din som kan logge og dele GPS data i CSV format.
 
-Sett deg på sykkelen og kjør samme ruten som i GPS datafilen vm.log fra prosjektet - se ruten på http://doarama.com/view/1604599
+Sett deg på sykkelen og kjør samme ruten som i GPS datafilen vm-logfilen fra prosjektet - se eksempelvis ruten https://gpx.pelmers.com/
 
-Bruk programmet fra Oppgave 6d) for å undersøke om du sykler raskere enn din underviser.
+Bruk programmet fra Oppgave 6d) til å undersøke om du sykler raskere enn din underviser.

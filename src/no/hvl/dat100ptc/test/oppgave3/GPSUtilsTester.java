@@ -99,7 +99,7 @@ public class GPSUtilsTester {
 		GPSPoint g1 = new GPSPoint(0,60.385390, 5.217217,0);
 		GPSPoint g2 = new GPSPoint(10,60.376988, 5.227082,0);
 
-		assertEquals((108.0 * 60 * 60)/1000 ,GPSUtils.speed(g1,g2),1.0);
+		assertEquals(108.0,GPSUtils.speed(g1,g2),1.0);
 	}
 	
 	@Test
