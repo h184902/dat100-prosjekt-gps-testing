@@ -78,11 +78,11 @@ Gjør ferdig implementasjonen av følgende metoder:
 - `public void print()` som skriver ut GPS data som finnes i `gpspoints`-tabellen på følgende formen
 
 ```
-====== Konvertert GPS Data - START ======
+====== GPS Data - START ======
 1 (1.0,2.0) 3.0
 2 (4.0,5.0) 6.0
 3 (7.0,8.0) 9.0
-====== Konvertert GPS Data - SLUTT ======
+====== GPS Data - SLUTT ======
 ```
 
 **Hint**: bruk løkke og `toString`-metoden på `GPSPoint`-objekt.
@@ -90,3 +90,17 @@ Gjør ferdig implementasjonen av følgende metoder:
 Metodene som allerede er implementert i klassen `GPSDataFileReader.java` leser - linje for linje - i GPS datafilen og lagrer data i tabellen ved å bruke `insert`-metoden som ble implementert ovenfor.
 
 Dette betyr at punktene i `gpspoint`-tabellen svarer til ruten som er representert i GPS datafilen og `gpspoint`-referansetabellen vil ha samme lengde som antallet av GPS punkter som er leste inn. Det siste betyr videre at hvert element i `gpspoint`-tabellen vil peke på et objekt. dvs. tabellen er full.
+
+#### c) Bruke GPSData-klassen
+
+Implementer en klasse `Main.java` med en main-metode som:
+
+- Oppretter to `GPSPoint`-objekter (velg selv argumenter for konstruktøren)
+
+- Oppretter et `GPSData`-objekt med plass til to `GPSPoint`-objekt
+
+- Setter inn de to objektene ved å bruke `insert`-metoden på `GPSData`-objektet.
+
+- Skriver ut informasjon om `GPSPoint`-objektene ved å bruke `print`-metoden på et `GPSData`-objekt.
+
+Formålet med denne oppgaven er å bli mer kjent med bruken av `GPSPoint`-klassen før de neste oppgavene.
