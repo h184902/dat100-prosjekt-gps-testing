@@ -8,19 +8,17 @@ Det ene Eclipse-prosjekt inneholder en rekke Java-klasser som utgjør rammen run
 
 Det andre Eclipse-prosjektet inneholder en rekke enhetstester som skal bruke til automatisk å teste den koden dere skriver.
 
-Fremgangsmåten for å importere Java-koden inn i Eclipse er beskrevet nedenfor og også vist i en video som er lagt ut på Canvas for programmeringsprosjektet.
+Fremgangsmåten for å importere Java-koden inn i Eclipse er beskrevet nedenfor og også vist i en video som er lagt ut på Canvas for programmeringsprosjektet. Gremgangmåten er den samme som dere har brukt tidlige.
 
 ## Steg 1: Importere Eclipse-prosjekt med startkode 
 
-Det finnes allerede kode i Eclipse-prosjektet som implementerer brukergrensesnittet basert på rammeverket Swing.
-
-### Opprettet egen kopi av oppbevaringsplass for startkode (Use as template) 
+### Opprette egen kopi av oppbevaringsplass for startkode (Use as template) 
 
 Gå inn på github på oppbevaringsplassen som inneholder start-koden:
 
 https://github.com/dat100hib/dat100-prosjekt-gps-startkode
 
-Begynn med å opprette en kopi av denne oppbevaringsplassen ved å bruke **Use as template** (se øverste høyre hjørne på github-websiden). Du vil da få en kopi av oppbevaringsplassen med startkoden på din egen github konto.
+Begynn med å opprette en kopi på egen konto av denne oppbevaringsplassen ved å bruke **Use as template** (se øverste høyre hjørne på github-websiden). Du vil da få en kopi av oppbevaringsplassen med startkoden på din egen github konto. Kun en i gruppen skal gjøre dette (se nedenfor).
 
 ### Klone og importere startkode i Eclipse (Clone og Import)
 
@@ -51,7 +49,7 @@ For å gjøre det enklere ifm. presentasjon av oppgaven å finne de plassene hvo
  
 ## Steg 2: Eclipse-prosjekt med enhetstester (Clone + Import)
 
-Formålet med enhetstestene er å gjøre det enklere å teste metoder etterhvert som de implementeres uten å skulle starte selve spill-applikasjonen. 
+Formålet med enhetstestene er å gjøre det enklere å teste metoder etterhvert som de implementeres uten å skulle starte selve sykkecomputer-applikasjonen. 
 
 Et Eclipse-prosjekt med ferdige enhetstester finnes på følgende github oppbevaringsplass:
 
@@ -67,7 +65,7 @@ En test-klasse med enhetstest utføres ved å velge test-klassen etterfulgt av *
 
 Det er god/anbefalt praksis å gjenta testene når det gjøres endringer/forbedringer i implementasjonen av en metode. Det anbefales også å teste etterhvert som de enkelte metoder implementeres. Enhetstestene er ikke komplette, men tester basale ting for metodene i de klasser som dere skal implementere.
 
-Enhetstesting og test-drevet utvikling er et tema senere i studiet og det er et generellt godt ingeniørprinsipp å teste komponentene sine før de settes sammen til et større system.
+Enhetstesting og test-drevet utvikling er et tema senere i studiet og det er et generelt godt ingeniørprinsipp å teste komponentene sine før de settes sammen til et større system.
 
 I mappen `logs` i Eclipse-prosjektet finnes tre CSV filer filer: `short.log`, `medium.log`, `long.log` og `vm.log` med GPS data punkter som kan brukes som input til Java sykkelcomputeren.
 

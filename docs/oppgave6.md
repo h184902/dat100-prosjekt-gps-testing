@@ -22,7 +22,7 @@ som finner den del av ruten som har den høyeste stigningsprosent.
 
 Utvid oppgave for visualisering med tekststrenger som viser enheter på y-aksen.
 
-Utvid `showHeightProfile`-metoden slik kurven kan tegnes i skalert real-tid. Husk at tabellen med GPS punkter gir tidspunkt for hvert datapunkt og vi kan utefra dette finne den reelle tiden mellom to punkter. For at det ikke skal ta for lang tid å tegne høydeprofilen skal brukeren kunne taste inn et tall som angir hvor mye tiden skal skaleres ned. Eksempelvis vil tallet 100 angi at hvert sekund i realtid skal tilsvare til 1/100 sekunder når datafilen visualiseres.
+Utvid `showHeightProfile`-metoden slik kurven kan tegnes i skalert real-tid. Husk at tabellen med GPS punkter gir tidspunkt for hvert datapunkt og vi kan utefra dette finne den reelle tiden mellom to punkter. For at det ikke skal ta for lang tid å tegne høydeprofilen skal brukeren kunne taste inn et tall som angir hvor mye tiden skal skaleres ned. Eksempelvis vil tallet 100 angi at hvert sekund i realtid skal tilsvare til 1/100 sekund når datafilen visualiseres.
 
 Skaleringsfaktoren kan leses inn ved å bruke `getText`-metoden i EasyGraphics og metoden `pause` (også fra EasyGraphics) kan brukes til å implementere en pause mellom tegning av hver søyle.
 
@@ -44,6 +44,6 @@ Denne oppgaven er vanskelig :-)
 
 Last ned en GPS Logger app’en på mobilen din som kan logge og dele GPS data i CSV format.
 
-Sett deg på sykkelen og kjør samme ruten som i GPS datafilen vm-logfilen fra prosjektet - se eksempelvis ruten https://gpx.pelmers.com/
+Sett deg på sykkelen og kjør samme ruten som i GPS datafilen vm-logfilen fra prosjektet - se eksempelvis ruten på https://gpx.pelmers.com/
 
 Bruk programmet fra Oppgave 6d) til å undersøke om du sykler raskere enn din underviser.

@@ -28,7 +28,7 @@ Denne tabellen skal dere bruke for å implementere metoden:
 showHeightProfile(int ybase)
 ```
 
-som tegner høydeprofilen der parameteren `ybase` angir hvor på y-aksen bunnen av en søylene skal starte.
+som tegner høydeprofilen der parameteren `ybase` angir hvor på y-aksen bunnen av søylene skal starte.
 
 For å gjøre oppgaven enklere kan det antas at hvert punkt (pixel) i vinduet svarer til en høyde-meter. Eventuelt negative høyder skal ignoreres – dvs. behandles som om de hadde verdien 0.
 
@@ -40,11 +40,11 @@ I denne oppgaven skal hastigheten der blev kjørt med i løpet av ruten visualis
 
 ![](assets/markdown-img-paste-20180909120055723.png)
 
-der denne grønne linjen indikerer gjennomsnittshastigheten for hele ruten. Hasigheter og gjennomsnitshastigheter skal vises som km/t.
+der den grønne linjen indikerer gjennomsnittshastigheten for hele ruten. Hasigheter og gjennomsnitshastigheter skal vises som km/t.
 
 Ferdiggjør implementasjonen av metoden `showSpeedProfile` i klassen `ShowSpeed.java`
 
-Der finnes allerede en `main` og `run`-metode i klassen som setter opp vindu og som kaller metoden `showSpeedProfile`. GPS data blir automatisk lest inn i et i konstruktøren i klassen som setter opp `GPSComputer`-objektet `gpscomputer`. Bruk dette objektet til å få tilgang til hastigheter og gjennomsnittshastigheter.
+Der finnes allerede en `main` og `run`-metode i klassen som setter opp vindu og som kaller metoden `showSpeedProfile`. GPS data blir automatisk lest inn i et i konstruktøren i klassen som setter opp `GPSComputer`-objektet `gpscomputer`. Bruk metoder fra oppgave 4 på dette objektet til å få tilgang til hastigheter og gjennomsnittshastigheter.
 
 ##### c) Sykkelruten
 

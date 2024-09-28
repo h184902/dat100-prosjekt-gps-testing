@@ -16,11 +16,11 @@ Det er **IKKE** lov å legge ferdige løsninger ut på Discord.
 
 ## Uke 41 og uke 42 - Jobbe med programmeringsoppgaver
 
-På programmerings-lab i uke 41 opg 42 skal dere jobbe med prosjektet. Her vil lab-assistenter være til stede for å hjelpe og svare på spørsmål relatert til programmeringsprosjektet. I uke 41 er der **ikke** forelesning på torsdagen og i uke 42 er der ikke forelesnings på onsdagen. Dette for å gi mer tid til å jobbe med projektet.
+På programmerings-lab i uke 41 opg 42 skal dere jobbe med prosjektet. Her vil lab-assistenter være til stede for å hjelpe og svare på spørsmål relatert til programmeringsprosjektet. I uke 41 er der **ikke** forelesning på torsdagen og i uke 42 er der ikke forelesning på onsdagen. Dette for å gi mer tid til å jobbe med projektet.
 
 ## Uke 42 og uke 43 - Gruppemøter
 
-I uke 42 eller uke 43 (avhengig av hvor rask gruppen kommer i mål med oppgavene) skal hver gruppe møtes med en annen gruppe for å diskutere og sammenligne løsningene som dere er kommet frem til. Dere kan gå frem oppgave for oppgave. Om der er ting som gruppene ikke fikk til å fungere, kan dette også diskuteres som en del av møtet. 
+I uke 42 eller uke 43 (avhengig av hvor rask gruppen kommer i mål med oppgavene) skal hver gruppe møtes med 1-2 andre grupper for å diskutere og sammenligne løsningene som dere er kommet frem til. Dere kan gå frem oppgave for oppgave. Om der er ting som gruppene ikke fikk til å fungere, kan dette også diskuteres som en del av møtet. 
 
 Informasjon om hvordan gruppemøtene organiseres kommer på Canvas.
 
@@ -32,7 +32,7 @@ Mange sykkelcomputere, sportsklokker og fitness-applikasjoner bruker GPS data dv
 
 Formålet med prosjektet er å implementere Java-programmer som har tilsvarende funksjonalitet som en typisk sykkelcomputer. Avanserte sykkelcomputere gjør beregninger løpende basert på input data fra en GPS sensor. Java-programmene i dette prosjektet baseres på å lese GPS data fra en datafil. På den måten vil Java-programmet simulere en riktig sykkelcomputer og fungere som en slags virtuell (ikke fysisk) sykkelcomputer.
 
-Det ultimative målet med prosjektet er en Java-applikasjon som bruker EasyGraphics biblioteket til løpende (live) å gi syklisten (brukeren) informasjon svarende til det som skissert på bildet nedenfor. Her er tid og aktuell hastighet vist i øverste venstre hjørne og høydeprofilen er i midten. Videre er ruten tegnet på et kart nederst der rød angir at sykkelruten går oppover, grønn at det går nedover og blå at det er flat.
+Det ultimative målet med prosjektet er en Java-applikasjon som bruker EasyGraphics biblioteket til løpende (live) å gi syklisten (brukeren) informasjon svarende til det som er skissert på bildet nedenfor. Her er tid og aktuell hastighet vist i øverste venstre hjørne og høydeprofilen er i midten. Videre er ruten tegnet på et kart nederst der rød angir at sykkelruten går oppover, grønn at det går nedover og blå at det er flatt.
 
 ![](docs/assets/markdown-img-paste-20180909131911330.png)
 
@@ -56,9 +56,9 @@ Som eksempel har vi for det første GPS datapunkt (i linje 3 i filen) informasjo
 
 Datafilen forteller altså hvilke punkter vi har flyttet oss igjennom og til hvilket tidspunkt. Vi startet i punktet svarende til linje 3, så flyttet vi oss til punktet i linje 4 osv. Totalt sett har vi beveget oss gjennom fem punkter som da definerer den ruten vi har syklet.
 
-I oppgaven skal dere bruke større GPS datafiler bla. en datafil hvor en DAT100 underviser har vært ute og sykle på ulike deler av løypene fra VM i Bergen, 2017. GPS log-filene finnes i mappen `logs` i startkoden.
+I oppgaven skal dere bruke større GPS datafiler bla. en datafil der en DAT100 underviser har vært ute og sykle på ulike deler av løypene fra VM i Bergen, 2017. GPS log-filene finnes i mappen `logs` i startkoden.
 
-Der finnes også ulike appplikasjoner eks. på web filer med GPS data kan visualieres. Eksempelvis: https://gpx.pelmers.com/
+Der finnes også ulike appplikasjoner eks. på web der filer med GPS data kan visualieres. Eksempelvis: https://gpx.pelmers.com/
 
 ## Oppgaver
 

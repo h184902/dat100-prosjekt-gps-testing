@@ -59,7 +59,7 @@ public class GPSData {
   [...]
 ```
 
-Objektvariablen `gpspoints` skal brukes til å peke på referansetabellen av GPS punkter. Objektvariabelen `antall` skal brukes ifm. med innsettelse i tabellen til å holde kontroll på hvor (dvs. på hvilken posisjon/indeks) neste GPS-punkt skal settes inn.
+Objektvariablen `gpspoints` skal brukes til å peke på en referansetabell av GPS punkter. Objektvariabelen `antall` skal brukes ifm. med innsettelse i tabellen til å holde kontroll på hvor (dvs. på hvilken posisjon/indeks) neste GPS-punkt skal settes inn.
 
 Variablen `antall` vil til ethvert tidspunkt angi hvor mange GPS punkter som er satt inn i tabellen. Indeks der det ikke er satt inn noe punkt vil ha verdien `null` (en null-peker). Objektvariablen `antall` har modifikatoren `protected` for å gjøre det enklere å teste klassen.
 
@@ -67,9 +67,9 @@ Testene for klassen finnes i klassen `GPSDataTester.java`.
 
 Gjør ferdig implementasjonen av følgende metoder:
 
-- `public GPSData(int n)` som er en konstruktør for klassen. Konstruktøren skal opprette en referansetabell av GPS punkter med størrelsen gitt ved parameteren `n` og sette `antall` lik `0` (siden første element skal inn på posisjon 0).
+- `public GPSData(int n)` som er en konstruktør for klassen. Konstruktøren skal opprette en referansetabell av GPS punkter med størrelsen gitt ved parameteren `n` og sette `gpspoints` objektvariablen til å peke på denne tabelle. Videre skal metoden sette `antall` lik `0` (siden første element skal inn på posisjon 0).
 
-- `protected boolean insertGPS(GPSPoint gpspoint)` som setter inn GPS punktet `gpspoint` i `gpspoints`-tabellen på posisjonen angitt ved objektvariablen `antall`. Videre skal metoden inkrementere `antall` slik neste punkt kommmer inn på neste posisjon. Metoden skal kun sette inn `gpspoint` om der er plass i tabellen dvs. hvis `antall` er strengt mindre enn `gpspoints.length`. Metoden skal returnere `true` om punktet blev satt inn og `false` ellers.
+- `protected boolean insertGPS(GPSPoint gpspoint)` som setter inn GPS punktet `gpspoint` inn i `gpspoints`-tabellen på posisjonen angitt ved objektvariablen `antall`. Videre skal metoden inkrementere `antall` slik neste punkt kommmer inn på neste posisjon. Metoden skal kun sette inn `gpspoint` om der er plass i tabellen dvs. hvis `antall` er strengt mindre enn `gpspoints.length`. Metoden skal returnere `true` om punktet blev satt inn og `false` ellers.
 
 - `public boolean insert(String time, String latitude, String longitude, String elevation)` som tar GPS punkt data i streng-representasjon og setter inn et tilsvarende `GPSPoint`-objekt i `gpspoints`-tabellen.
 
@@ -93,6 +93,8 @@ Dette betyr at punktene i `gpspoint`-tabellen svarer til ruten som er represente
 
 #### c) Bruke GPSData-klassen
 
+Formålet med denne oppgaven er å bli mer kjent med bruken av `GPSData`-klassen før de neste oppgavene.
+
 Implementer en klasse `Main.java` med en main-metode som:
 
 - Oppretter to `GPSPoint`-objekter (velg selv argumenter for konstruktøren)
@@ -103,4 +105,3 @@ Implementer en klasse `Main.java` med en main-metode som:
 
 - Skriver ut informasjon om `GPSPoint`-objektene ved å bruke `print`-metoden på et `GPSData`-objekt.
 
-Formålet med denne oppgaven er å bli mer kjent med bruken av `GPSPoint`-klassen før de neste oppgavene.

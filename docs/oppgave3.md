@@ -52,7 +52,7 @@ som beregner og returnerer avstanden *d* i meter mellom to GPS punkt på jord-kl
 
 der *R = 6 371 000* m er jordens gjennomsnittsradius.
 
-De to GPS punktene i formelen ovenfor er (latitude<sub>1</sub>, longtitude<sub>1</sub>) og (latitude<sub>2</sub>, longtitude<sub>2</sub>). Teksten *omregnet til radianer* i figuren betyr at etter å ha utregnet verdien av uttryjjet til høyre for `=`-tegnet (eks. *longitude<sub>2</sub> - longitude<sub>2</sub>*) skal resultatet omregnes til radianer.
+De to GPS punktene i formelen ovenfor er (latitude<sub>1</sub>, longtitude<sub>1</sub>) og (latitude<sub>2</sub>, longtitude<sub>2</sub>). Teksten *omregnet til radianer* i figuren betyr at etter å ha utregnet verdien av uttrykket til høyre for `=`-tegnet (eks. *longitude<sub>2</sub> - longitude<sub>2</sub>*) skal resultatet omregnes til radianer.
 
 Start-koden for klassen inneholder to lokale hjelpemetoder:
 
