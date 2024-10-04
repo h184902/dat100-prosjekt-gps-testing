@@ -66,6 +66,6 @@ Der finnes også ulike appplikasjoner eks. på web der filer med GPS data kan vi
 - [**Oppgave 1:** GPS punkter og klasser](https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/oppgave1.md)
 - [**Oppgave 2:** Datakonvertering og referansetabeller](https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/oppgave2.md)
 - [**Oppgave 3:** Hjelpemetoder for tabeller og beregninger](https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/oppgave3.md)
-- [**Oppgave 4:** GPS data beregninger](https://github.com/dat100-prosjekt-gps-testing/blob/master/docs/oppgave4.md)
+- [**Oppgave 4:** GPS data beregninger](https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/oppgave4.md)
 - [**Oppgave 5:** Visualisering og EasyGraphics](https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/oppgave5.md)
 - [**Oppgave 6:** Valgfrie ekstraoppgaver](https://github.com/dat100hib/dat100-prosjekt-gps-testing/blob/master/docs/oppgave6.md)
