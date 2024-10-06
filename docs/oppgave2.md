@@ -101,7 +101,7 @@ Implementer en klasse `Main.java` med en main-metode som:
 
 - Oppretter et `GPSData`-objekt med plass til to `GPSPoint`-objekt
 
-- Setter inn de to objektene ved å bruke `insert`-metoden på `GPSData`-objektet.
+- Setter inn de to objektene ved å bruke `insertGPS`-metoden på `GPSData`-objektet.
 
 - Skriver ut informasjon om `GPSPoint`-objektene ved å bruke `print`-metoden på et `GPSData`-objekt.
 
